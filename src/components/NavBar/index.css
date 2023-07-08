@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 60px; /* Adjust the margin to control the gap between links */
+  }
+  
+  .navbar li.active {
+    color: red; /* Change the color for active link */
+  }
